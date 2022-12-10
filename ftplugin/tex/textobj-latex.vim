@@ -36,7 +36,7 @@ call textobj#user#plugin('latex', {
 \     'select-i': 'ir',  '*select-i-function*': 's:select_i'
 \   },
 \   'bracket-math': {
-\     '*pattern*': ['\\\[', '\\\]'],
+\     '*pattern*': ['\\\[\n*\s*', '\n*.*\\\]'],
 \     'select-a': 'ab',
 \     'select-i': 'ib',
 \   },
